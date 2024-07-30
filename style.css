@@ -1,0 +1,30 @@
+*{
+    font-family: "Inter Tight", sans-serif;
+}
+header{
+    background-color: #2C5273;
+}
+header span{
+    color: #F2E6D8;
+}
+.nav-item a{
+    color: #F2E6D8;
+}
+/*Para despues de visitar el menú vualva al mismo color*/
+.nav-item a:visited{
+    color: #F2E6D8;
+}
+.nav-item a:hover{
+    color: #4E84A6;
+}
+#nav-buttom{
+    background-color: #4E84A6;
+}
+.bi{
+    
+}
+/*escribir url
+.img-proyecto{
+    background-image: url();
+    background: rgba(76, 175, 80, 0.3)
+}*/
