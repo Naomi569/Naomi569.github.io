@@ -57,7 +57,10 @@ footer p{
 footer p a{
     color: #F2E6D8;
 }
-
+#app{
+    color: #2C5273;
+    font-size: 2rem;
+}
 /*escribir url
 .img-proyecto{
     background-image: url();
