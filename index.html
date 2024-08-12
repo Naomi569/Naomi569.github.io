@@ -47,20 +47,21 @@
 
   <main>
     <section id="sobre-mi">
-      <div class="px-4 py-5 my-5 text-center">
-        <img class="d-block mx-auto mb-4 rounded-circle" src="/imagen/phi.jpg" alt="fotografía de perfil" width="150">
+      <div class="px-4 py-3 my-4 text-center">
+        <img class="d-block mx-auto mb-4 rounded-pill" src="/imagen/Foto18años.JPG" alt="fotografía de perfil 18 años" height="200">
         <h1 class="display-5 fw-bold text-body-emphasis">Naomi Sánchez Melchor</h1>
 
         <div id="app"></div>
         
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">Soy una persona comprometida en el desarrollo de las actividades en las que me involucro.
-            Se
-            me facilita la gestión del tiempo, así como la priorización de tareas con el fin de alcanzar los
+            Se me facilita la gestión del tiempo, así como la priorización de tareas con el fin de alcanzar los
             objetivos y metas de manera exitosa. Mi mentalidad innovadora me permite identificar
             oportunidades y perseguirlas con determinación.</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Conoce mi trayectoria</button>
+            <a href="/imagen/NaomiSanchezMelchorResume.pdf" download>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Conoce mi trayectoria</button>
+            </a>
           </div>
         </div>
       </div>
@@ -76,9 +77,9 @@
               <i class="bi bi-laptop icon-habilidades"></i>
             </div>
             <div>
-              <h3 class="fs-2 text-body-emphasis">Desarrollo web</h3>
+              <h3 class="fs-2 text-body-emphasis">Tecnología</h3>
               <p>He creado sitios web resposivos aplicando los conocimientos obtenidos durante el bootcamp de
-                Tecnolochicas PRO</p>
+                Tecnolochicas PRO, además de ello tengo conocimiento básico sobre algunos lenguajes de programación.</p>
             </div>
           </div>
           <div class="col d-flex align-items-start">
@@ -88,19 +89,17 @@
             </div>
             <div>
               <h3 class="fs-2 text-body-emphasis">Emprendimiento</h3>
-              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
-                and probably just keep going until we run out of words.</p>
+              <p>Desde que era joven este ha sido un rubro de gran interés que me ha aportado cierta destreza para generar y desarrollar nuevas ideas ante circunstancias problemáticas. </p>
             </div>
           </div>
           <div class="col d-flex align-items-start">
             <div
               class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-              <i class="bi bi-gear icon-habilidades"></i>
+              <i class="bi bi-globe-americas icon-habilidades"></i>
             </div>
             <div>
-              <h3 class="fs-2 text-body-emphasis">Tecnología</h3>
-              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
-                and probably just keep going until we run out of words.</p>
+              <h3 class="fs-2 text-body-emphasis">Sustentable</h3>
+              <p>Me comprometo con la ideación de tecnologías que minimicen la huella ecológica, integrando así prácticas sostenibles al desarrollar soluciones respetuosas con nuestro entorno ambiental, cultural y social.</p>
             </div>
           </div>
         </div>
@@ -113,87 +112,40 @@
       <div class="container px-4 py-5" id="custom-cards">
         <h2 class="pb-2 border-bottom">Proyectos</h2>
 
+        <!--Card 1-->
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
           <div class="col">
             <div class="img-proyecto1 card card-cover h-51 overflow-hidden text-bg-dark rounded-4 shadow-lg">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-2 mb-4 display-6 lh-1 fw-bold">Clon de pinterest</h3>
-                <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                      class="rounded-circle border border-white">
-                  </li>
-                  <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#geo-fill"></use>
-                    </svg>
-                    <small>Earth</small>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#calendar3"></use>
-                    </svg>
-                    <small>3d</small>
-                  </li>
-                </ul>
+                <!--Para colocar un link a las letras de clon de pinterest se agrega un ancla y para devolver el estilo es con class-->
+                <a href="https://pinterest-clone-ivory.vercel.app/" class="text-white text-decoration-none" target="_blank"><h3 class="pt-2 mb-4 display-6 lh-1 fw-bold">Clon de pinterest</h3></a>
+                <ul class="d-flex list-unstyled mt-auto"></ul>
               </div>
             </div>
           </div>
 
+          <!--Card 2-->
           <div class="col">
-            <div class="card card-cover h-51 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-              style="background-image: url('unsplash-photo-2.jpg');">
+            <div class="img-proyecto2 card card-cover h-51 overflow-hidden text-bg-dark rounded-4 shadow-lg">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Primera página</h3>
-                <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                      class="rounded-circle border border-white">
-                  </li>
-                  <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#geo-fill"></use>
-                    </svg>
-                    <small>Pakistan</small>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#calendar3"></use>
-                    </svg>
-                    <small>4d</small>
-                  </li>
-                </ul>
+                <!--Para colocar un link a las letras de clon de pinterest se agrega un ancla y para devolver el estilo es con class-->
+                <a href="https://github.com/Naomi569/tareas-pendientes.git" class="text-white text-decoration-none" target="_blank"><h3 class="pt-2 mb-4 display-6 lh-1 fw-bold">Tareas con java script</h3></a>
+                <ul class="d-flex list-unstyled mt-auto"></ul>
               </div>
             </div>
           </div>
 
+          <!--Card 3-->
           <div class="col">
-            <div class="card card-cover h-51 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-              style="background-image: url('unsplash-photo-3.jpg');">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Proyecto en java script</h3>
-                <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                      class="rounded-circle border border-white">
-                  </li>
-                  <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#geo-fill"></use>
-                    </svg>
-                    <small>California</small>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#calendar3"></use>
-                    </svg>
-                    <small>5d</small>
-                  </li>
-                </ul>
+            <div class="img-proyecto3 card card-cover h-51 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <!--Para colocar un link a las letras de clon de pinterest se agrega un ancla y para devolver el estilo es con class-->
+                <a href="https://naomi569.github.io/" class="text-white text-decoration-none" target="_blank"><h3 class="pt-2 mb-4 display-6 lh-1 fw-bold">Divulgación en sitio web</h3></a>
+                <ul class="d-flex list-unstyled mt-auto"></ul>
               </div>
             </div>
           </div>
-        </div>
+
       </div>
     </section>
 
@@ -205,14 +157,13 @@
           <div class="carousel-item active">
             <div class="d-flex justify-content-center">
               <div class="card border-0" style="width: 18rem;">
-                <img src="/imagen/nina.png" class="rounded-circle card-img-top" alt="...">
+                <img src="/imagen/nina.png" class="rounded-circle card-img-top" alt="imagen 1 de testimonio Alitzel">
                 <div class="card-body">
-                  <h5 class="card-title text-center">Card title</h5>
-                  <div class="card-header">
-                    Feautured
+                  <h5 class="card-title text-center">Alitzel Sánchez</h5>
+                  <div class="card-header text-center">
+                    Compañera de equipo
                   </div>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+                  <p class="card-text text-center">Trabajar con Naomi ha sido una experiencia excepcional. Aborda los problemas de manera práctica y efectiva, manteniendo una atención meticulosa a los detalles. Sus objetivos son claros y siempre están alineados con un enfoque sólido, guiado por sus valores personales.</p>
                 </div>
               </div>
             </div>
@@ -280,11 +231,8 @@
     <ul class="nav justify-content-center pb-3 mb-3">
       <li class="nav-item">
         <a href="https://github.com/Naomi569" target="_blank" class="nav-link px-2 text-body-secondary icon-footer"><i class="bi bi-github"></i></a></li>
-        <!--Falta actualizar links de linkedin y facebook-->
       <li class="nav-item">
-        <a href="#" target="_blank" class="nav-link px-2 text-body-secondary icon-footer"><i class="bi bi-linkedin"></i></a></li>
-      <li class="nav-item">
-        <a href="#" target="_blank" class="nav-link px-2 text-body-secondary icon-footer"><i class="bi bi-facebook"></i></a></li>
+        <a href="https://www.linkedin.com/in/naomi-s%C3%A1nchez-melchor-526267322/" target="_blank" class="nav-link px-2 text-body-secondary icon-footer"><i class="bi bi-linkedin"></i></a></li>
     </ul>
     <p class="text-center">Creado en 2024 por Naomi Sánchez Melchor en el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a></p>
   </footer>
